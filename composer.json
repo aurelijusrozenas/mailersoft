@@ -1,0 +1,15 @@
+{
+	"name": "raz/mailersoft",
+	"type": "symfony-bundle",
+	"description": "Symfony mailersoft bundle",
+	"keywords": ["mailersoft"],
+	"require": {
+		"php": ">=5.2.0"
+	},
+	"autoload" : {
+		"classmap": [
+			"PHP/"
+		]
+	},
+	"target-dir": "raz/mailersoft"
+}
