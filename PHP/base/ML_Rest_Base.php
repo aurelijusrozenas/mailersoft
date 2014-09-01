@@ -166,7 +166,7 @@ class ML_Rest_Base
 
         curl_setopt($curlHandle, CURLOPT_SSL_VERIFYHOST, false );
         curl_setopt($curlHandle, CURLOPT_SSL_VERIFYPEER, false );
-        curl_setopt($curlHandle, CURLOPT_FOLLOWLOCATION, true );
+       @curl_setopt($curlHandle, CURLOPT_FOLLOWLOCATION, true );
     }
 
     protected function setAuth (&$curlHandle)
